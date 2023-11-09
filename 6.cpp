@@ -1,3 +1,5 @@
+// Count of an Element in a Sorted Array
+
 #include<iostream>
 using namespace std;
 
@@ -41,7 +43,7 @@ int elementCount(int arr[], int ele, int n) {
     int firstOccurrenceIndex = firstOccurrence(arr, ele, n);
     
     if (firstOccurrenceIndex == -1) {
-        return -1;  // Element not found
+        return -1;      // Element not found
     }
     
     int lastOccurrenceIndex = lastOccurrence(arr, ele, n);

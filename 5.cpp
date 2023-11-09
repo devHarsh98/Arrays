@@ -1,3 +1,5 @@
+// First and Last occurrence of an Element
+
 #include<iostream>
 using namespace std;
 
@@ -9,7 +11,7 @@ int firstOccurrence(int arr[], int ele, int n) {
         int mid = start + (end - start) / 2;
         if(arr[mid] == ele) {
             result = mid;
-            end = mid - 1;   // last ocuurence (start = mid + 1)
+            end = mid - 1;     // For last ocuurence => start = mid + 1
         }
         else if(ele < arr[mid]) {
             end = mid - 1;
