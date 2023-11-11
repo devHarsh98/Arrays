@@ -1,4 +1,4 @@
-# Arrays
+# Arrays 🔥
 
 ### 1. Linear Search
 ### 2. Binary Search
@@ -6,3 +6,4 @@
 ### 4. Order not known
 ### 5. First and Last occurrence of an Element
 ### 6. Count of an Element in a Sorted Array
+### 7. Number of times a sorted array is rotated.
